@@ -5,34 +5,6 @@ Backend REST API + Frontend independiente (arquitectura desacoplada).
 
 **Proyecto de Aula** — Ingenieria de Sistemas, 2026.
 
-## Requisitos previos
-
-- Java 21
-- Docker (para MongoDB)
-
-## Como ejecutar
-
-### 1. Levantar MongoDB
-
-```bash
-docker compose up -d
-```
-
-Esto arranca MongoDB 8 en el puerto 27017.
-
-### 2. Iniciar el backend
-
-```bash
-cd backend
-./gradlew bootRun
-```
-
-La API arranca en `http://localhost:8080`.
-
-### 3. Ver la documentacion Swagger
-
-Abrir en el navegador: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
-
 ## Endpoints principales
 
 ### Categorias (`/api/v1/categorias`)
